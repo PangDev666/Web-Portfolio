@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Ovo;
+  src: URL('/assets/fonts/Ovo-Regular.ttf');
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+        --color-lightHover: #fcf4ff;
+        --color-darkHover: #2a004a;
+        --color-darkTheme: #11001f;
+
+        --font-Ovo: 'Ovo', sans-serif;
+        --font-Outfit: 'Outfit', sans-serif;
+
+        --shadow-black: 4px 4px 0px #000000;
+        --shadow-white: 4px 4px 0px #ffffff;
+
+        --grid-auto: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: var(--grid-auto) !important;
+}
+
