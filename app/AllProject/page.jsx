@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 const allProjects = () => {
 
-   const [isDarkMode, setIsDarkMode] = useState(false);
+   /*const [isDarkMode, setIsDarkMode] = useState(false);
   
     useEffect(() => {
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -25,15 +25,15 @@ const allProjects = () => {
         document.documentElement.classList.remove('dark');
         localStorage.theme = '';
       }
-    },[isDarkMode]);
+    },[isDarkMode]);*/
 
   return (
     <div>
-        <NavbarForNextPage isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+        <NavbarForNextPage /*isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}*//>
         <div className="h-[100px]"></div>
-        <AllProject isDarkMode={isDarkMode}/>
+        <AllProject /*isDarkMode={isDarkMode}*//>
         <div className='h-[100px]'></div>
-        <Footer isDarkMode={isDarkMode}/>
+        <Footer /*isDarkMode={isDarkMode}*//>
     </div>
   )
 }
