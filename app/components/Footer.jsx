@@ -18,13 +18,13 @@ const Footer = ({isDarkMode}) => {
             <p>2025 Banthoon Chaipradith. All rights reserved.</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li>
-                    <a target='_blank' href="">GitHub</a>
+                    <a target='_blank' href="https://github.com/PangDev666?tab=repositories">GitHub</a>
                 </li>
                 <li>
-                    <a target='_blank' href="">LinkedIn</a>
+                    <a target='_blank' href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">LinkedIn</a>
                 </li>
                 <li>
-                    <a target='_blank' href="">Instagram</a>
+                    <a target='_blank' href="https://www.instagram.com/pangpaktok/">Instagram</a>
                 </li>
             </ul>
         </div>
