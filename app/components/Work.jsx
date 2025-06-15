@@ -84,6 +84,7 @@ const Work = ({ isDarkMode }) => {
           className="w-4"
         />
       </motion.a>
+      
     </motion.div>
   );
 };
