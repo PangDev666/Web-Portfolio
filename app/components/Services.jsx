@@ -18,7 +18,7 @@ const Services = ({ isDarkMode }) => {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
-        Service it
+        My portfolio
       </motion.h4>
 
       <motion.h2
@@ -26,7 +26,7 @@ const Services = ({ isDarkMode }) => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-center text-5xl font-Ovo">
-        My Services
+        My work
       </motion.h2>
 
       <motion.p
