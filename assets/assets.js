@@ -183,6 +183,12 @@ export const AllworkData = [
     bgImage: "/work-1.jpg",
     link: "/MyProject/websiteUNP",
   },
+   {
+    title: "SCADA & Industrial System Development",
+    description: "iot Development",
+    bgImage: "/scada-1.jpg",
+    link: "/MyProject/SCADA",
+  },
   {
     title: "Website Translate",
     description: "Fontend project",
@@ -251,6 +257,12 @@ export const WebAppData = [
     description: "Full stack project",
     bgImage: "/work-1.jpg",
     link: "/MyProject/websiteUNP",
+  },
+  {
+    title: "SCADA & Industrial System Development",
+    description: "iot Development",
+    bgImage: "/scada-1.jpg",
+    link: "/MyProject/SCADA",
   },
   {
     title: "Website Translate",
