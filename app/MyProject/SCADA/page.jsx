@@ -9,43 +9,43 @@ import { RxDotFilled } from "react-icons/rx";
 const deliveryTicket = () => {
   const slides = [
     {
-      image: "/project/scada/ch.jpg",
+      image: "/project/scada/ch.png",
     },
     {
-      image: "/project/scada/mes data.jpg",
+      image: "/project/scada/mes data.png",
     },
     {
-      image: "/project/scada/mes.jpg",
+      image: "/project/scada/mes.png",
     },
     {
-      image: "/project/scada/node-red.jpg",
+      image: "/project/scada/node-red.png",
     },
     {
-      image: "/project/scada/co-1.jpg",
+      image: "/project/scada/co-1.png",
     },
     {
-      image: "/project/scada/fen3.jpg",
+      image: "/project/scada/fen3.png",
     },
     {
-      image: "/project/scada/heater&blower.jpg",
+      image: "/project/scada/heater&blower.png",
     },
     {
-      image: "/project/scada/inverter.jpg",
+      image: "/project/scada/inverter.png",
     },
     {
-      image: "/project/scada/powerMoniter.jpg",
+      image: "/project/scada/powerMoniter.png",
     },
     {
-      image: "/project/scada/solarcell.jpg",
+      image: "/project/scada/solarcell.png",
     },
     {
-      image: "/project/scada/solarcell-ch.jpg",
+      image: "/project/scada/solarcell-ch.png",
     },
     {
-      image: "/project/scada/tank1.jpg",
+      image: "/project/scada/tank1.png",
     },
     {
-      image: "/project/scada/fe.jpg",
+      image: "/project/scada/fe.png",
     },
   ];
 
