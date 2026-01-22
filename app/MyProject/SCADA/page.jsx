@@ -12,7 +12,7 @@ const deliveryTicket = () => {
       image: "/project/scada/ch.png",
     },
     {
-      image: "/project/scada/mes data.png",
+      image: "/project/scada/mesData.png",
     },
     {
       image: "/project/scada/mes.png",
@@ -33,7 +33,7 @@ const deliveryTicket = () => {
       image: "/project/scada/inverter.png",
     },
     {
-      image: "/project/scada/powerMoniter.png",
+      image: "/project/scada/powerMonitor.png",
     },
     {
       image: "/project/scada/solarcell.png",

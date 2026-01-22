@@ -52,13 +52,12 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            Hello! I'm Banthoon — a curious and passionate learner who loves
-            creating new ideas. I'm deeply enthusiastic about designing and
-            developing websites, apps, and digital media. I enjoy coding, 3D
-            modeling, and even building and repairing computers on my own. I've
-            also had some experience managing server systems. With a passion for
-            development, design, and technology, I'm committed to sharing my
-            ideas and continuously improving myself.
+            Hello! My name is Banthoon. I love learning and generating new ideas. I'm
+            passionate about designing and developing websites, applications, and
+            digital media. I also enjoy building and repairing computers, and have some
+            experience managing IT server systems. With a strong enthusiasm for
+            development, design, and creativity, I am committed to bringing my ideas
+            to life and continuously improving myself.
           </p>
 
           <motion.ul
