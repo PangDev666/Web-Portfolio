@@ -4,7 +4,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react'
 const ThemeContext = createContext({ isDarkMode: false, toggleTheme: () => {} });
 
 // Runs in <head> before hydration so the page doesn't flash light first.
-export const themeInitScript = `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}}catch(e){}})();`;
+export const themeInitScript = `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`;
 
 export const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
