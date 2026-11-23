@@ -48,9 +48,6 @@ import webpage from "./project/webTran/webpage.png";
 /* Web Portfolio */
 import BGport from "./project/webPort/work-3.jpg";
 
-/* Web Service */
-import webService from "./project/webService/work-5.jpg";
-
 /* It Service */
 import ItServiceFigma from "./project/itService/figma3.png";
 import powerapp from "./project/itService/powerapp.jpg";
@@ -123,9 +120,6 @@ export const assets = {
   //Web Portfolio
   BGport,
 
-  //Web Service
-  webService,
-
   //IT Service
   ItServiceFigma,
   powerapp,
@@ -178,6 +172,24 @@ export const workData = [
 
 export const AllworkData = [
   {
+    title: "UNIPRO Web Service Portal",
+    description: "Full stack project",
+    bgImage: "/work-13.jpg",
+    link: "/MyProject/webPortal",
+  },
+  {
+    title: "ArtKUSTEG Product Website",
+    description: "Brand website",
+    bgImage: "/work-14.jpg",
+    link: "/MyProject/artkusteg",
+  },
+  {
+    title: "IT Helpdesk Ticket System",
+    description: "Power Platform",
+    bgImage: "/work-12.jpg",
+    link: "/MyProject/itHelpdesk",
+  },
+  {
     title: "Website Manufcturing",
     description: "Full stack project",
     bgImage: "/work-1.jpg",
@@ -206,12 +218,6 @@ export const AllworkData = [
     description: "App form for leaving the premises",
     bgImage: "/work-4.jpg",
     link: "/MyProject/qrCode",
-  },
-  {
-    title: "Web Service",
-    description: "UI/UX Design",
-    bgImage: "/work-5.jpg",
-    link: "/MyProject/webService",
   },
   {
     title: "Web/App IT Service",
@@ -253,6 +259,24 @@ export const AllworkData = [
 
 export const WebAppData = [
   {
+    title: "UNIPRO Web Service Portal",
+    description: "Full stack project",
+    bgImage: "/work-13.jpg",
+    link: "/MyProject/webPortal",
+  },
+  {
+    title: "ArtKUSTEG Product Website",
+    description: "Brand website",
+    bgImage: "/work-14.jpg",
+    link: "/MyProject/artkusteg",
+  },
+  {
+    title: "IT Helpdesk Ticket System",
+    description: "Power Platform",
+    bgImage: "/work-12.jpg",
+    link: "/MyProject/itHelpdesk",
+  },
+  {
     title: "Website Manufcturing",
     description: "Full stack project",
     bgImage: "/work-1.jpg",
@@ -281,12 +305,6 @@ export const WebAppData = [
     description: "App form for leaving the premises",
     bgImage: "/work-4.jpg",
     link: "/MyProject/qrCode",
-  },
-  {
-    title: "Web Service",
-    description: "UI/UX Design",
-    bgImage: "/work-5.jpg",
-    link: "/MyProject/webService",
   },
   {
     title: "Web/App IT Service",
@@ -325,10 +343,16 @@ export const ItSupportData = [
 
 export const UxUiData = [
   {
-    title: "Web Service",
-    description: "UI/UX Design",
-    bgImage: "/work-5.jpg",
-    link: "/MyProject/webService",
+    title: "ArtKUSTEG Product Website",
+    description: "Brand website",
+    bgImage: "/work-14.jpg",
+    link: "/MyProject/artkusteg",
+  },
+  {
+    title: "IT Helpdesk Ticket System",
+    description: "Power Platform",
+    bgImage: "/work-12.jpg",
+    link: "/MyProject/itHelpdesk",
   },
   {
     title: "Web/App IT Service",
