@@ -2,38 +2,18 @@
 import React from 'react'
 import NavbarForNextPage from '../components/NavbarForNextPage'
 import AllProject from '../components/project/AllProject'
-import { useEffect, useState } from "react";
 import Footer from '../components/Footer';
 
 const allProjects = () => {
 
-   /*const [isDarkMode, setIsDarkMode] = useState(false);
-  
-    useEffect(() => {
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        setIsDarkMode(true);
-      }else{
-        setIsDarkMode(false);
-      }
-    },[]);
-  
-    useEffect(() => {
-      if(isDarkMode){
-        document.documentElement.classList.add('dark');
-        localStorage.theme = 'dark';
-      }else{
-        document.documentElement.classList.remove('dark');
-        localStorage.theme = '';
-      }
-    },[isDarkMode]);*/
 
   return (
     <div>
-        <NavbarForNextPage /*isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}*//>
+        <NavbarForNextPage />
         <div className="h-[100px]"></div>
-        <AllProject /*isDarkMode={isDarkMode}*//>
+        <AllProject />
         <div className='h-[100px]'></div>
-        <Footer /*isDarkMode={isDarkMode}*//>
+        <Footer />
     </div>
   )
 }

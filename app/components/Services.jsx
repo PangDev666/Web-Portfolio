@@ -1,9 +1,12 @@
+'use client'
+import { useTheme } from './ThemeProvider'
 import { serviceData, assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
 
-const Services = ({ isDarkMode }) => {
+const Services = () => {
+  const { isDarkMode } = useTheme();
   return (
     <motion.div
       initial={{ opacity: 0 }}

@@ -1,8 +1,11 @@
+'use client'
+import { useTheme } from './ThemeProvider'
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 
-const Footer = ({isDarkMode}) => {
+const Footer = () => {
+  const { isDarkMode } = useTheme();
   return (
     <div className='mt-20'>
         <div className='text-center'>

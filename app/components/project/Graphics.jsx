@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Graphics = ({ isDarkMode }) => {
+const Graphics = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
